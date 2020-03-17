@@ -1,0 +1,26 @@
+{% extends "base/Device.template" %}
+{% block device %}
+"id": "urn:ngsi-ld:Controller:{{id_0_id_string_req}}",
+"type": "Controller",
+"subCategory":{
+"type": "Property",
+"value": "BuildingRelated-ControlDevice"
+},
+  "connectedActuator": {
+    "type": "Relationship",
+    "object": ["{{connectedActuator_2_ConnectedActuator_select_req}}"]
+  },
+  "connectedSensor": {
+    "type": "Relationship",
+    "object": ["{{relatedSensor_3_ConnectedSensor_select_req}}"]
+  },
+{% if setValue_4_setValue_string_opt %}
+  "setVAlue": {
+    "type": "Property",
+    "value": "{{setValue_4_setValue_string_opt}}"
+  },
+{% endif %}
+{% endblock %}
+
+{% block context %}
+{% endblock %}

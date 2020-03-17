@@ -1,0 +1,23 @@
+{% extends "base/Device.template" %}
+{% block device %}
+"id": "urn:ngsi-ld:Sensor:{{id_1_req_string}}",
+"type": "Sensor",
+"subCategory":{
+"type": "Property",
+"value": "BuildingRelated-ControlDevice"
+},
+{% if ReadableName_1_opt_string %}
+"readableName": {
+"type": "Property",
+"value": "{{ReadableName_1_opt_string}}"
+},
+{% endif %}
+{% if LoggingInterval_2_opt_string %}
+"loggingInterval": {"type": "Property",
+"value": "{{LoggingInterval_2_opt_string}}"
+}
+{% endif %}
+{% endblock %}
+
+{% block context %}
+{% endblock %}

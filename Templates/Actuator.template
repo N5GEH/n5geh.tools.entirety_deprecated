@@ -1,0 +1,41 @@
+{% extends "Device.template" %}
+{% block device %}
+"id": "urn:ngsi-ld:Actuator:{{id_1_req_string}}",
+"type": "Actuator",
+"subCategory": {
+"type": "Property",
+"value": "BuildingRelated-ControlDevice"
+},
+"readableName": {
+"type": "Property",
+"value": "{{ReadableName_1_req_string}}"
+},
+"sampleInterval": {
+"type": "Property",
+"value": "{{SampleInterval_3_req_string}}"
+},
+"listening": {
+"type": "Property",
+"value": "{{Listening_2_req_string}}"
+},
+"loggingInterval": {
+"type": "Property",
+"value": "{{LoggingInterval_4_req_string}}"
+},
+{% if MetaData_5_opt_string %}
+"metaData": {
+"type": "Property",
+"value": "{{MetaData_5_opt_string}}"
+}
+{% endif %}
+{% if Writable_6_opt_string %}
+"writable": {
+"type": "Property",
+"value": "{{Writable_6_opt_string}}"
+}
+{% endif %}
+{% endblock %}
+
+{% block context %}
+{% endblock %}
+

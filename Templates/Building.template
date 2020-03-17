@@ -1,0 +1,67 @@
+{
+"id": "urn:ngsi-ld:Building:{{id_1_req_str}}",
+"type": "Building",
+"buildingType":{
+"type" : "Relationship", 
+"value" :"urn:ngsi-ld:BuildingType:{{BuildingType_2_req_str}}"
+},
+"createdAt": {
+"type": "Property",
+"value": "{{CreateAt_3_req_dtime}}"
+},
+"modifiedAt":{
+"type": "Property",
+"value": "{{ModifiedAt_4_req_dtime}}"
+},
+owner": {
+"type": "Relationship",
+"value": "urn:ngsi-ld:Owner:{{BuildingOwner_5_req_str}}"
+},
+"occupier":{
+"type" : "Relationship",
+"value" : "urn:ngsi-ld:Person:{{OccupierPerson_6_req_str}}" 
+},
+"source": "https://source.example.com",
+"dataProvider": {
+"type": "Relationship",
+"value": "urn:ngsi-ld:Provider:{{Provider_7_opt_str}}"
+},
+{
+% if FloorsAboveGround_8_opt_str %
+}"floorsAboveGround": {
+"type": "Property",
+"value": "{{FloorsAboveGround_8_opt_str}}"
+},
+{
+% endif %
+}
+{
+% if FloorsBellowGround_9_opt_str %
+}"floorsBellowGround ": {
+"type": "Property",
+"value": "{{FloorsBellowGround_9_opt_str }}"
+},
+{
+% endif %
+}
+"entityVersion": {
+{
+EntityVersion_10_opt_str
+}
+}, 
+{
+% if SupplierName_11_opt_str %
+}"supplierName": {
+"type": "Property",
+"value": "{{SupplierName_11_opt_str}}"
+},
+{
+% endif %
+}
+},
+"@context": [
+"https://fiware.n5geh.de/ngsi-ld/device/Core-Context.NGSILd.jsonld",
+"https://fiware.n5geh.de/ngsi-ld/device/Device.jsonld",
+"https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/master/Building.jsonld"
+]}
+

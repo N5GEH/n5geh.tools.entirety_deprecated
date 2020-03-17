@@ -1,0 +1,44 @@
+{% extends "base/controller.template" %}
+{% extends "base/Device.template" %}
+{% block device %}
+"id": "urn:ngsi-ld:PID:{{id_0_id_string_req}}",
+"type": "PID",
+"subCategory":{
+"type": "Property",
+"value": "BuildingRelated-ControlDevice-Controller"
+},
+{% if higherLimit_1_higherLimit_string_opt %}
+"higherLimit": {
+"type": "Property",
+"value": "{{higherLimit_1_higherLimit_string_opt}}"
+},
+{% endif %}
+{% if lowerLimit_2_lowerLimit_string_opt %}
+"lowerLimit": {"type": "Property",
+"value": "{{lowerLimit_2_lowerLimit_string_opt}}"
+},
+{% endif %}
+{% if kp_3_kp_string_opt %}
+"kp": {"type": "Property",
+"value": "{{kp_3_kp_string_opt}}"
+},
+{% endif %}
+{% if td_4_td_string_opt %}
+"kp": {"type": "Property",
+"value": "{{td_4_td_string_opt}}"
+},
+{% endif %}
+{% if ti_5_ti_string_opt %}
+"kp": {"type": "Property",
+"value": "{{ti_3_ti_string_opt}}"
+},
+{% endif %}
+{% if reverseAction_6_reverseAction_string_opt %}
+"kp": {"type": "Property",
+"value": "{{reverseAction_6_reverseAction_string_opt}}"
+},
+{% endif %}
+{% endblock %}
+
+{% block context %}
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base/Device.template" %}
+{% block device %}
+"id": "urn:ngsi-ld:RVK:{{id_1_req_string}}",
+"type": "RVK",
+"Category": {
+"type": "Property",
+"value": "RVK"
+},
+"T01_Sp01": {
+"type": "Property",
+"value": "{{T_1_req_string}}"
+},
+"address": {
+"type": "Property",
+"value": {
+"type": "https://schema.org/PostalAddress",
+"addressLocality": "{{AddressLocality_2_opt_string}}",
+"addressCountry": "{{AddressCountry_3_opt_string}}",
+"postalCode": "{{PostalCode_4_opt_string}}",
+"streetAddress": "{{StreetAddress_5_opt_string}}"
+}
+}
+{% endblock %}
+
+{% block context %}
+,"https://fiware.n5geh.de/ngsi-ld/RVK-context.jsonld"
+{% endblock %}

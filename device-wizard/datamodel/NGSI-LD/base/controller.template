@@ -1,0 +1,25 @@
+{
+  "connectedActuator": {
+    "type": "Relationship",
+    "object": ["{{connectedActuator_2_ConnectedActuator_select_req}}"]
+  },
+  "connectedSensor": {
+    "type": "Relationship",
+    "object": ["{{relatedSensor_3_ConnectedSensor_select_req}}"]
+  },
+{% if setValue_4_setValue_string_opt %}
+  "setVAlue": {
+    "type": "Property",
+    "value": "{{setValue_4_setValue_string_opt}}"
+  },
+{% endif %}
+
+  {% block Controller %}
+  {% endblock%}
+  "@context": [
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+    {% block context %}
+    {% endblock%}
+  ]
+}
+
