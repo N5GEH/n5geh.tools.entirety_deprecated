@@ -87,26 +87,26 @@ The DeviceWizard GUI application itself was developed using Pycharm development 
 ### Opening Screen
 
  Execute (Run) the GUI as written in the instruction. You will see the initial HOME Screen which contains username and password options for athenteícation. 
- <img src="images/IDM.png" width=850>
+ <img src="documentation/images/IDM.png" width=850>
 
 
 ###  DeviceWizard Menus
 
 This menu provides the usual {register , Open..., } options. In this application you use this menu and the associated Dialogs to register and modify IoT devices. Example; Assuming that you have registered the desired device type into application in the GUI, you can use the register menu to save the data to the platform. When you again run the GUI you can use the registered device to retrieve the already existing data to the GUI. 
 
- <img src="images/Menu.png" width=850> 
+ <img src="documentation/images/Menu.png" width=850> 
  
 ####  Device Menu
 This is the usual Web Edit Interface. 
 You use this dialog to set properties of your device and open channel between the GUI Application and the platform. This will test communication and serve to registration  using the API (binary) Command Interface.  By selecting "Devices" in the left pane, the right pane list of device types will be shown. The user can select appreciated type of device from this dropdown menu and see list of properties belong to the device type by pressing register Button.
 
- <img src="images/RegisterMenu.png" width=850> 
+ <img src="documentation/images/RegisterMenu.png" width=850> 
  
 The Mandatory properties can not be left empety and you will recieve feedback about validation of provided information. A list of properties for PMU are presented in the image. 
  
-  <img src="images/registerProperties.png" width=850> 
+  <img src="documentation/images/registerProperties.png" width=850> 
 
 ####  Registered Devices Menu
 This is the usual Web View Interface. This menu is currently used by the GUI application to reterive the existing devices. By selecting "Registered devices" in the left pane, in the right pane, user is able to filter according to the specific type of device from dropdown and decide how many row data wants to see. The result will be shown in the table of right pane.
 
-  <img src="images/showEntities.png" width=850> 
+  <img src="documentation/images/showEntities.png" width=850> 
