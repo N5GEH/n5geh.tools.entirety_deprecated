@@ -445,4 +445,4 @@ client_secret = os.environ.get("CLIENT_SECRET", default="client_secrets.json")
 device_wizard_config = json.load(open(device_wizard, 'rt'))
 
 app = create_app(device_wizard_config, client_secret)
-app.run(host='0.0.0.0', port=8090)
+# app.run(host='0.0.0.0', port=8090)
