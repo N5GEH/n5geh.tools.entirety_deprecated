@@ -95,3 +95,24 @@ The Mandatory properties can not be left empty and you will receive feedback abo
 This is the usual Web View Interface. This menu is currently used by the GUI application to reterive the existing devices. By selecting "Registered devices" in the left pane, in the right pane, user is able to filter according to the specific type of device from dropdown and decide how many row data wants to see. The result will be shown in the table of right pane.
 
   <img src="documentation/images/showEntities.png" width=850> 
+
+# License
+
+- [MIT-License](LICENSE)
+
+# Copyright
+
+2020, Technische Universität Dresden
+
+# Contact
+
+- [Ilya Sychev](https://cn.ifn.et.tu-dresden.de/chair/staff/ilya-sychev/)
+
+[The Deutsche Telekom Chair of Communication Networks](https://cn.ifn.et.tu-dresden.de/)
+[Technische Universität Dresden, Germany](https://tu-dresden.de/)
+
+# Acknowledgement
+<img src="https://www.ebc.eonerc.rwth-aachen.de/global/show_picture.asp?mod=w%3d474%26h%3d%26gray%3d%26neg%3d%26mirror%3d%26flip%3d%26rleft%3d%26rright%3d%26r180%3d%26crop%3d%26id%3daaaaaaaaaayxgwf&id=aaaaaaaaaayxgwf" width="250">
+
+We gratefully acknowledge the financial support provided by the BMWi (Federal Ministry for Economic Affairs and Energy), promotional reference 03ET1561A/B/C
+
