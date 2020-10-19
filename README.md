@@ -108,7 +108,7 @@ This is the usual Web View Interface. This menu is currently used by the GUI app
 
 
 
-[![ComNets_Logo](https://cn.ifn.et.tu-dresden.de/wp-content/uploads/2019/01/ComNets_MZ_RGB_Subline_en.png)]{:width="168px"}(https://cn.ifn.et.tu-dresden.de)
+[![ComNets_Logo](https://cn.ifn.et.tu-dresden.de/wp-content/uploads/2019/01/ComNets_MZ_RGB_Subline_en.png =168px)](https://cn.ifn.et.tu-dresden.de)
 [![TU_DRESDEN_Logo](https://tu-dresden.de/++theme++tud.theme.webcms2/img/tud-logo.svg)](https://tu-dresden.de/)
 
 - [Ilya Sychev](https://cn.ifn.et.tu-dresden.de/chair/staff/ilya-sychev/)
