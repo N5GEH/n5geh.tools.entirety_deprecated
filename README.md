@@ -109,6 +109,7 @@ This is the usual Web View Interface. This menu is currently used by the GUI app
 - [Ilya Sychev](https://cn.ifn.et.tu-dresden.de/chair/staff/ilya-sychev/)
 
 [The Deutsche Telekom Chair of Communication Networks](https://cn.ifn.et.tu-dresden.de/)
+
 [Technische Universität Dresden, Germany](https://tu-dresden.de/)
 
 # Acknowledgement
