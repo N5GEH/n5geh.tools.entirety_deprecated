@@ -34,7 +34,7 @@ Flask==1.1.1
 flask-oidc==1.4.0
 Flask-Testing==0.7.1
 future==0.18.0
-httplib2==0.14.0
+httplib2==0.18.0
 idna==2.8
 imagesize==1.1.0
 importlib-metadata==0.23
