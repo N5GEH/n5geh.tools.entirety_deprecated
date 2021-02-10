@@ -14,7 +14,7 @@ cffi==1.12.3
 chardet==3.0.4
 Click==7.0
 coverage==4.5.4
-cryptography==3.2
+cryptography==3.3.2
 Django==2.2.13
 django-admin==2.0.0
 django-admin-sso==2.4.0
