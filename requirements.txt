@@ -15,7 +15,7 @@ chardet==3.0.4
 Click==7.0
 coverage==4.5.4
 cryptography==3.2
-Django==2.2.13
+Django==2.2.18
 django-admin==2.0.0
 django-admin-sso==2.4.0
 django-crispy-forms==1.7.2
