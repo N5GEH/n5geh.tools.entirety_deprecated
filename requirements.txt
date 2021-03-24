@@ -72,7 +72,7 @@ PyYAML==4.2b1
 rdflib==4.2.2
 rdflib-jsonld==0.4.0
 requests==2.22.0
-rsa==4.0
+rsa==4.1
 six==1.12.0
 snowballstemmer==2.0.0
 soupsieve==1.9.5
