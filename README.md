@@ -1,3 +1,13 @@
+#
+#
+#
+
+# This repository is deprecated and will no longer be maintained. We recommend to switch to the succeeding app [HERE](https://github.com/N5GEH/n5geh.tools.entirety).
+
+#
+#
+
+
 [![ENTIRETY Banner](documentation/images/Entirety-logo.png)](https://www.n5geh.de)
 # ENTIRETY - Semantic Provisioning and Governing IoT Devices in Smart Energy Domain
 
